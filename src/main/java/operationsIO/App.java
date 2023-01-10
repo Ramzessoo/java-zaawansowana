@@ -1,4 +1,4 @@
-package day0901;
+package operationsIO;
 
 import java.io.IOException;
 
@@ -13,5 +13,4 @@ public class App {
 
         fileUtil.writeFile(OUTPUT_PATH, content);
     }
-
 }
