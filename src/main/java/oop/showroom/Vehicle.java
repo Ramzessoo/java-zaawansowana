@@ -1,12 +1,9 @@
 package oop.showroom;
 
-import lombok.ToString;
-
-@ToString
 public abstract class Vehicle {
     private BrandType brand;
     private ModelType model;
-    private ColorType colour;
+    private ColourType colour;
     private EngineType engine;
     private double mileage;
     private GearboxType gearboxType;
@@ -16,8 +13,7 @@ public abstract class Vehicle {
 
     }
 
-
-    public Vehicle(BrandType brand, ModelType model, ColorType colour, EngineType engine, double mileage,
+    public Vehicle(BrandType brand, ModelType model, ColourType colour, EngineType engine, double mileage,
                    GearboxType gearboxType, boolean isUsed) {
         this.brand = brand;
         this.model = model;
@@ -46,11 +42,11 @@ public abstract class Vehicle {
         this.model = model;
     }
 
-    public ColorType getColour() {
+    public ColourType getColour() {
         return colour;
     }
 
-    public void setColour(ColorType colour) {
+    public void setColour(ColourType colour) {
         this.colour = colour;
     }
 

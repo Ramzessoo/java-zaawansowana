@@ -6,7 +6,6 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
 public class Car extends Vehicle {
     private FuelType fuel;
     private String carDrive;
@@ -14,7 +13,7 @@ public class Car extends Vehicle {
     private Integer capacity;
     private int passengersNumber;
 
-    public Car(BrandType brand, ModelType model, ColorType colour, EngineType engine, double mileage,
+    public Car(BrandType brand, ModelType model, ColourType colour, EngineType engine, double mileage,
                GearboxType gearboxType, boolean isUsed, FuelType fuel, String carDrive, int doorsNumber,
                Integer capacity, int passengersNumber) {
         super(brand, model, colour, engine, mileage, gearboxType, isUsed);
@@ -23,35 +22,35 @@ public class Car extends Vehicle {
         this.doorsNumber = doorsNumber;
         this.capacity = capacity;
         this.passengersNumber = passengersNumber;
-
     }
-    public SimpleCar createSimpleCar() {
+
+    @Override
+    Object getSimpleVehicle() {
         return new SimpleCar(this);
     }
 
-//    public SimpleCar creatSimpleCar(Car car) {
+//    public SimpleCar createSimpleCar(Car car) {
 //        return new SimpleCar(car);
 //    }
-        static class SimpleCar {
-            private BrandType brandType;
-            private ModelType modelType;
-            private boolean isUsed;
 
-            public SimpleCar(Car car) {
-                this.brandType = car.getBrand();
-                this.modelType = car.getModel();
-                this.isUsed = car.isUsed();
-            }
+    static class SimpleCar {
+        private BrandType brandType;
+        private ModelType modelType;
+        private boolean isUsed;
 
-            @Override
-            public String toString() {
-                return "SimpleCar{" +
-                        "brandType=" + brandType +
-                        ", modelType=" + modelType +
-                        ", isUsed=" + isUsed +
-                        '}';
-            }
-        }
+        public SimpleCar(Car car) {
+            this.brandType = car.getBrand();
+            this.modelType = car.getModel();
+            this.isUsed = car.isUsed();
         }
 
-
+        @Override
+        public String toString() {
+            return "SimpleCar{" +
+                    "brandType=" + brandType +
+                    ", modelType=" + modelType +
+                    ", isUsed=" + isUsed +
+                    '}';
+        }
+    }
+}
