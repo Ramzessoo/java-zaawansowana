@@ -6,6 +6,7 @@ import oop.showroom.model.enums.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class Car extends Vehicle {
     private FuelType fuel;
     private String carDrive;
@@ -32,6 +33,20 @@ public class Car extends Vehicle {
 //    public SimpleCar createSimpleCar(Car car) {
 //        return new SimpleCar(car);
 //    }
+
+
+    @Override
+    public String toString() {
+        return "Car {" +
+                "brand: " + super.getBrand() +
+                ", model: " + super.getModel() +
+                ", fuel: " + fuel +
+                ", carDrive: " + carDrive + '\'' +
+                ", doorsNumber: " + doorsNumber +
+                ", capacity: " + capacity +
+                ", passengersNumber: " + passengersNumber +
+                '}';
+    }
 
     static class SimpleCar {
         private BrandType brandType;
