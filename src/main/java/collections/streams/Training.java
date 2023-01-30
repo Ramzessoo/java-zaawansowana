@@ -1,15 +1,18 @@
-package collections.sorting;
+package collections.streams;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
+
+import java.util.List;
 
 @AllArgsConstructor
 @Getter
+@Setter
 @ToString
-
-class Person {
+public class Training {
 
     private String name;
-    private String surname;
+    private List<Person> students;
 }
