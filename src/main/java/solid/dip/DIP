@@ -1,0 +1,6 @@
+DIP czyli Dependency Inversion Principle
+
+czyli zasada odwrócenia zależności
+
+chodzi o to żeby dany obiekt nie tworzył innych obiektów od których zależy
+tylko żeby je 'dostał gotowe" i tylko użył
