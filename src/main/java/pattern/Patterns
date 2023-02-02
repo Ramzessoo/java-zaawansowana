@@ -1,0 +1,12 @@
+Wzroce projektowe - ogólnie przyjęte sposoby pisania często pojawiających się problemów / zadań.
+
+GoF - Gang of Four - grupka 4 amerykańskich nauczycieli programowania która opracowała
+dużą ilość wzorców
+
+Wzorce dzielimy na:
+- kreacyjne - omawiające sposoby tworzenia obiektów
+    -- singleton(y) - do tworzenia dokładnie jednego obiektu dla klasy
+    -- fabryki - do tworzenia obiektów z jednej rodziny
+- strukturalne
+- behawioralne
+
