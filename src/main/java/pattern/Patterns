@@ -8,6 +8,8 @@ Wzorce dzielimy na:
     -- singleton(y) - do tworzenia dokładnie jednego obiektu dla klasy
     -- fabryki - do tworzenia obiektów z jednej rodziny
     -- fabryki abstrakcyjne - gdzie dla każdego obiektu z rodziny mamy osobną fabrykę - jeden punkt wejście do fabryk
+    -- builder - gdy mamy część (albo ani jednego) parametru obiektów wymaganych, a część jest opcjonana
+    -- prototype - gdy mamy wzorzec wzorcowy i "odkopiowujemy" go na nowo do bieżącego użycia
 - strukturalne
 - behawioralne
 
