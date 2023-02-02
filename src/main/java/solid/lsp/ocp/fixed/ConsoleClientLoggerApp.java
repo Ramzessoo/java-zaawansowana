@@ -1,4 +1,4 @@
-package solid.ocp.fixed;
+package solid.lsp.ocp.fixed;
 
 public class ConsoleClientLoggerApp {
     public static void main(String[] args) {

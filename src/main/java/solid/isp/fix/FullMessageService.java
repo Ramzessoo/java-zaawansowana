@@ -8,7 +8,7 @@ public class FullMessageService implements MessageService {
 
     public List<String> messages;
 
-    public FullMessageService(){
+    public FullMessageService() {
         messages = new ArrayList<>();
     }
 

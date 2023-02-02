@@ -1,3 +1,4 @@
 ISP czyli Interface Segregation Principle
 
-czyli zasada segregowania interfejsów
+czyli zasada segregowania interfejsów, polega na tym że lepsze kilka mniejszych interfejsów
+niż jeden większy bo każds może implementować wiele interfejsów

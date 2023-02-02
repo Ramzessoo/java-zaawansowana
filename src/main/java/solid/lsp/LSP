@@ -4,4 +4,4 @@ czyli zasada podstawień Barbary Linskov
 
 która mówi że jeśli mamy ogólny typ podstawowy
 i kilka jego typów pochodnych to wywołanie metody z typu podstawowego
-na typie pochodnym ma za każdym razem zadziałąć
+na typie pochodnym ma za każdym razem zadziałać

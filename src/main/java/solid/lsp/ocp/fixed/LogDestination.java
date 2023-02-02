@@ -1,7 +1,8 @@
-package solid.ocp.fixed;
+package solid.lsp.ocp.fixed;
 
 public enum LogDestination {
     CONSOLE,
-    DB
+    DB,
+    FILE
 
 }

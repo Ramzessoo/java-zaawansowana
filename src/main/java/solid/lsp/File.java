@@ -9,6 +9,6 @@ public class File implements FileOperation {
 
     @Override
     public void write(String filrname, byte[] content) {
-        System.out.println("Writing to file "+ filrname);
+        System.out.println("Writing to file " + filrname);
     }
 }

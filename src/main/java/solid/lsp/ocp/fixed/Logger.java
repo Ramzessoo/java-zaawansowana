@@ -1,4 +1,4 @@
-package solid.ocp.fixed;
+package solid.lsp.ocp.fixed;
 
 public class Logger {
 
@@ -7,7 +7,10 @@ public class Logger {
     public Logger(MessageLogger messageLogger) {
         this.messageLogger = messageLogger;
     }
-
+    /**
+     * Teraz mamy ogólną metodę log która będzie przekazywać komunikaty
+     * które chcemy zapisać do zainicjowanego w konstruktorze loggera
+     */
     public void log(String message) throws Exception {
         messageLogger.log(message);
     }

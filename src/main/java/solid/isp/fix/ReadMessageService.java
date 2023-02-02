@@ -2,7 +2,7 @@ package solid.isp.fix;
 
 import java.util.List;
 
-public class ReadMessageService implements ReadableMessageService{
+public class ReadMessageService implements ReadableMessageService {
 
     List<String> messages;
 
@@ -12,6 +12,6 @@ public class ReadMessageService implements ReadableMessageService{
 
     @Override
     public List<String> readMessages() {
-        return null;
+        return messages;
     }
 }

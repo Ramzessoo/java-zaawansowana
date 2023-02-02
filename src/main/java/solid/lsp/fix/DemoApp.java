@@ -6,6 +6,12 @@ public class DemoApp {
         System.out.println("========= Odczyt z pliku ===========");
         System.out.println("====================================");
 
+        /**
+         * Dla Readable mamy 2 klasy pochodne i można je wymiennie stosować
+         * i za każdym razem wyołanie metody read() zadziała w oczekiwany,
+         * zgodny z nazwą metody :) sposób
+         */
+
         Readable readable= new ReadableFile();
         readable.read("Jakis plik");
         System.out.println("----------");

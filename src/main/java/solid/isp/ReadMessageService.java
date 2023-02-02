@@ -2,20 +2,23 @@ package solid.isp;
 
 import java.util.List;
 
-public class ReadMessageService implements MessageService{
+public class ReadMessageService implements MessageService {
     private List<String> messages;
 
-    public ReadMessageService(List<String> messages){
+    public ReadMessageService(List<String> messages) {
         this.messages = messages;
     }
 
     @Override
     public void writeMessage(String message) {
+        throw new UnsupportedOperationException("Can't write on read only davice");
 
     }
 
     @Override
     public List<String> readMessages() {
-        return null;
+
+        System.out.println("List of all messages provided");
+        return messages;
     }
 }

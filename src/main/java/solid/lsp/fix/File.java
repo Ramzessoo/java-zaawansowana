@@ -12,4 +12,6 @@ public class File implements Writable, Readable {
     public void write(String filename, byte[] content) {
         System.out.println("Writing to file " + filename);
     }
+    //zapis do pliku...
+
 }
