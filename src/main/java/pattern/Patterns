@@ -14,6 +14,9 @@ Wzorce dzielimy na:
     -- facade -
     -- proxy -
     -- flyweight -
-
-- behawioralne
+    -- decorator -
+    -- composite -
+- behawioralne - dokładają nowe możliwości obiektom, sprawiając że obiekty wyglądają jak coś innego, z większymi możliwościami
+    -- templateMethod - definije alogrytm wykonywania jakiegoś zadania, część kroków pozostawia do definicji
+       programiście "końcowemu", a część oraz kolejność wykonywani kroków jest odgórnie ustalona
 
