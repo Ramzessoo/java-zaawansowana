@@ -12,5 +12,6 @@ Wzorce dzielimy na:
     -- prototype - gdy mamy wzorzec wzorcowy i "odkopiowujemy" go na nowo do bieżącego użycia
 - strukturalne - definiują powiązania między obiektami
     -- facade -
+    -- proxy -
 - behawioralne
 
