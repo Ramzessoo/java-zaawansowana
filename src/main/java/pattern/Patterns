@@ -13,5 +13,7 @@ Wzorce dzielimy na:
 - strukturalne - definiują powiązania między obiektami
     -- facade -
     -- proxy -
+    -- flyweight -
+
 - behawioralne
 
