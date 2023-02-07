@@ -1,4 +1,4 @@
-package pattern.behavioral;
+package pattern.behavioral.templateMethod;
 
 public class EmailNewsProvider extends NewsProvider {
 

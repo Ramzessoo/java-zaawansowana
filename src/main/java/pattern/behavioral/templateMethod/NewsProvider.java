@@ -1,4 +1,4 @@
-package pattern.behavioral;
+package pattern.behavioral.templateMethod;
 
 public abstract class NewsProvider {
     private String message;
