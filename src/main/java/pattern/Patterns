@@ -20,9 +20,11 @@ Wzorce dzielimy na:
  - behawioralne - dokłądają nowe możliwości obiektom, sprawiając że obiekty wyglądają jak coś innego, z większymi możliwościami
    --templateMethod - definiuje algorytm wykonywania jakiegoś zadania, część kroków pozostawia do definicji
      programiście "końcowemu", a część, oraz kolejność wykonywania kroków jest odgórnie ustalona
-   --strategy (policy) - strategia bądź polityka - zmiany wymienne - określają jak zaimplementować kilka różnych algorytmów
-     realizujących podobne zadania
-   --command - pozwala obudować zadania jakie wykonuje klasa swoimi metodami o dodatkowe możliwości (np. logowanie,
+   --strategy (policy) - strategia bądź polityka - nazwy wymienne - określają jak zaimplementować kilka różnych algorytmów
+     realizujących podobne zadanie
+   --command - pozwala "obudować" zadania jakie wykonuje klasa swoimi metodami o dodatkowe możliwości (np. logowanie,
      trzymanie historii operacji, ...)
-
-
+   --chainOfRespoisibility - wzorzec pozwalający na rozłożenie skomplikowanej weryfikacji na listę małych, podobnych w budowie kroków
+   --memento - służy do zapamiętania obrazu (stanu) innego obiektu
+   --visitor - polega na wyposażeniu różnych obiektów w taką samą funkcjonalność na potrzeby operacji która musi być wykonana podobinie
+     dla wszystkich tych obiektów
