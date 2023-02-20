@@ -1,6 +1,6 @@
 package programming.animals;
 
-public class Eagle extends Bird{
+public class Eagle extends Bird {
 
     private String name;
 

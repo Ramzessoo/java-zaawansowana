@@ -1,5 +1,5 @@
 package programming.animals;
 
-public abstract class Cat extends Animal{
+public abstract class Cat extends Animal {
 
 }

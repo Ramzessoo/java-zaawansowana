@@ -1,6 +1,6 @@
 package programming.animals;
 
-public class PussyCat extends Cat{
+public class PussyCat extends Cat {
 
     private String name;
 
