@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void saveToFile(String fileName, List objectList) {
-        System.out.println("Trying to write to file" + fileName);
+        System.out.println("Trying to write to file " + fileName);
         Path path = Paths.get(fileName);
         int line = 0;
         try {
