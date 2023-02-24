@@ -9,5 +9,9 @@ public class Main {
         point3D.setXYZ(793, 100, 8);
         System.out.println(point2D);
         System.out.println(point3D);
+
+        Line line = new Line(23, 5, 67, 8);
+        System.out.println(line.getLength());
+        System.out.println(line.getMiddlePoint());
     }
 }
